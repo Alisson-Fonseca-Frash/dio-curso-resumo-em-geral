@@ -1,9 +1,9 @@
 
-# DIO | Git e Github
+# DIO | **NTT DATA - Engenharia de Dados com Python**
 
-Repositório para armazenar resumos sobre Git e Github do curso versionamento de código com Git e Github da [frash.dev](https://frash-dev.gitbook.io/frash-dev/)🔗
+## Repositório para armazenar resumos sobre curso **NTT DATA - Engenharia de Dados com Python**
 
-## 📒📋Documentação
+### 📒📋Documentação
   - [Documentação Git](https://git-scm.com/doc)🔗
   - [Documentação Github](https://docs.github.com/)🔗
 
