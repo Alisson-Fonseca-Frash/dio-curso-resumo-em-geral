@@ -1,9 +1,8 @@
+# DIO | Git e Github
 
-# DIO | **NTT DATA - Engenharia de Dados com Python**
+Repositório para armazenar resumos sobre Git e Github do curso versionamento de código com Git e Github da [frash.dev](https://frash-dev.gitbook.io/frash-dev/)🔗
 
-## Repositório para armazenar resumos sobre curso **NTT DATA - Engenharia de Dados com Python**
-
-### 📒📋Documentação
+## 📒📋Documentação
   - [Documentação Git](https://git-scm.com/doc)🔗
   - [Documentação Github](https://docs.github.com/)🔗
 
@@ -493,3 +492,419 @@ Exemplo de [print / input](https://drive.google.com/file/d/1soeiFutCf11QgynxDVGT
 * [docs - Funções - input ](https://docs.python.org/3/library/functions.html#input)🔗
 * [docs - Funções - print](https://docs.python.org/3/library/functions.html#print)🔗
 
+
+# Desafios de projetos: Crie um Portfólio Vencedor!
+
+## PBL, Portfólio, Competências e Empregabilidade
+
+### Aprendizagem Baseada em Projetos (PBL)
+
+_O **Aprendizado Baseado em Projetos** é sobre imergir em grandes ideias e criar soluções tangíveis. Neste método,você constroi projetos práticos que refletem problemas e desafios do mundo real. Esses projetos não apenas aumentam seu conhecimento, mas também demonstram suas competências._
+
+|1️⃣ Portfólio 📦|2️⃣ Destaque 🌟|3️⃣ Oportunidades 🚀|
+|-|-|-|
+| _Cada projeto concluído reforça suas **habildades**, promove **networking** e  dá **destaque** ao seu portfólio profissional._| _Ao finalizar seus projetos na DIO, você obtém uma **certificação de competências**, um diferencial importante para abrir portas no merdado de trabalho._|Através da **Talent Match**, você tem acesso às melhores oportunidades de emprego no setor de tecnologia. Vamos ajudá-lo a construir a carreira dos seus sonhos. |
+
+### Desenvolva suas Habildades
+
+
+
+|   **Hard Skill**            |  **Soft Skill**          |
+| -                           | -                        |
+| - Linguagens de Programação | - Trabalho em Equipe     |
+| - Arquitetura de Sistema    | - Pensamento Crítico     |
+| - Banco de Dados            | - Gerenciamento de Tempo |
+| - Stacks de Desenvolvimento | - Comunicação            |
+| - Ferramentas               | - Liderança              |
+
+
+# A Importância dos Desafios de Projeto na Prática
+
+## Entendendo o Desafio
+
+**Agora é a sua hora de brilhar e construir um perfil de destaque na DIO! Explore todos os conceitos explorados até aqui e replique (ou melhore, porque não?) este projeto prático. Para isso, crie seu próprio repositório e aumente ainda mais seu portfólio de projetos no GitHub, o qual pode fazer toda diferença em suas entrevistas técnicas.😎**
+
+| _Dica: Se o expert forneceu um repositório GitHub, você pode dar um "fork" no repositório dele para organizar suas alterações e evoluções mantendo uma referência direta ao código-fonte original._ |
+|-|
+
+### Repositório Git 
+
+_O Git é um conceito essencial no mercado no mercado de trabalho atualmente, por sempre reforçamos sua importância em nossa metodologia educacional. Por isso, todo código-fonte desenvolvido durante este conteúdo foi versionado no seguinte endereço para que você possa consultá-lo a qualquer momento:_
+
+[Repositório da Eli dio-lab-open-source.](https://github.com/elidianaandrade/dio-lab-open-source)🔗
+
+[Apresentação - Slides](https://academiapme-my.sharepoint.com/:p:/g/personal/renato_dio_me/EYjkgVZuUv5HsVgJUEPv1_oB_QWs8MFBY_PBQ2UAtLqucg?rtime=qBcIgfbM3Eg)🔗
+# Operadores Aritméticos
+
+## *Objetivo Geral*
+
+O que são operadores aritméticos e como utilizá-los.
+
+### Pré-requisitos
+
+* Python 3+
+* VSCode
+
+### Percurso
+
+|Etapa 1|Etapa 2|
+|-|-|
+
+Conhecendo os operadores aritméticos|Precedência de operadores.
+
+## **Etapa 1**
+
+### Conhecendo os operadores aritméticos
+
+#### O que são?
+
+_Os operadores aritméticos executam operações matemáticas, como adição, subtração com operandos._
+
+### Adição, subtração e multiplicação
+
+    # Adição
+    print(1 + 1)
+    >>> 2
+>>>
+    # Subtração
+    print(10 - 2)
+    >>> 8
+
+>>>
+    # Multiplicação
+    print( 4 * 3)
+    >>> 12
+
+### Divisão e divisão inteira
+
+    # Divisão (retorna um float)
+    print(12 / 3)
+    >>> 4.0
+>>>
+    # Divisão inteira
+    print(12 // 2)
+    >>> 6
+>>>
+
+### Módulo e exponenciação
+
+    # Módulo (Quantas vezes o três cabe dentro do 10, cabem 3x e sobra 1)
+    print(10 % 3)
+    >>> 1
+>>>
+    # Exponenciação (2 ao cubo é = 8)
+    print(2 ** 3)
+    >>> 8
+>>>
+
+## **Etapa 2**
+
+### Precedência de operadores
+
+#### Na matemática
+
+_Na matemática existe uma regra que indica quais operações devem ser executadas primeiro. Isso é útil pois ao analisar uma expressão, a depender da ordem das operações o valor pode ser diferente:_
+
+    x = 10 - 5 * 2
+    x é igual a 10 ou 0?
+
+## Na matemática
+
+A definição indica a seguinte ordem como correta:
+
+* Parêntesis
+* Expoêntes
+* Multiplicações e divisões (da esquerda para a direita)
+* Somas e subtrações (da esquerda para a direita)
+
+### Exemplo
+
+    print(10 - 5 * 2)
+    >>> 0
+
+    print((10 - 5 ) * 2)
+    >>> 10
+
+    print(10 ** 2 * 2) (é o mesmo que 10²)
+    >>> 200
+
+    print(10 ** (2 * 2))
+    >>> 10000
+
+    print(10 / 2 * 4)
+    >>> 20.0
+
+#### Na prática
+
+###### Operação Aritmética na prática
+![🔗](https://github.com/Alisson-Fonseca-Frash/imagens/blob/2934808f6e916cd9eb26832120e51e2eef9b0e19/Ex%20de%20operadores%20aritmeticos.png)
+
+##### Precedência dos operadores
+*Para forçar o precedente, coloca-se entre Parêntesis.*
+
+    Ex: x = (20 / 2) + (25 * (3 - 4) ** 2)
+
+
+![🔗](https://github.com/Alisson-Fonseca-Frash/imagens/blob/f737ac23c39cda2e510be35ffaed083fee4824d6/Preced%C3%AAncia%20dos%20operadores.png)
+
+## Links Últeis
+
+* [Trilha Python DIO](https://github.com/guicarvalho/trilha-python-dio)🔗
+# Operadores de Comparação (Booleano `bool`)
+
+## Objetivo Geral
+
+*O que são operadores de comparação e como utilizá-los.*
+
+## Pré-requisitos
+
+* Python 3+
+* VSCode
+
+## Percurso
+
+| **Etapa 1** |
+|-|
+
+*Conhecendo os operadores de comparação*
+
+### O que são?
+
+*São operadores utilizados para comparar dois valores.*
+
+    Ex: Se o valor "a" é maior/menor/igual/diferente que o valor "b"
+>>>
+
+### Igualdade
+
+    saldo = 450
+    saque = 200
+
+    print(saldo == saque)
+    >>> False
+>>>
+### Diferença
+
+    saldo = 450
+    saque = 200
+    print( saldo != saque)
+    >>> True
+### Maior que / maior ou igual
+
+    saldo = 450
+    saque = 200
+    print(saldo > saque)
+    >>> True
+
+    print(saldo >= saque)
+    >>> True
+>>>
+    saldo = 450
+    saque = 200
+    print(saldo > saque)
+    >>> False
+
+    print(saldo <= saque)
+    >>> False
+
+## Hands On!
+
+### Na Prática
+
+Operadores de Comparação
+![🔗](https://github.com/Alisson-Fonseca-Frash/imagens/blob/eaf4fb53e0fc9fcd5edbf5706ac8eb12f6c1174a/Operadores%20de%20Compara%C3%A7%C3%A3o.png)
+# Operadores de Atribuição
+
+## Objetivo Geral
+
+*O que são operadores de atribuição e como utilizá-los.*
+
+## Pré-requisitos
+
+* Python 3+
+* VSCode
+
+## Percurso
+
+|Etapa 1|
+|-|
+
+Conhecendo os operadores de atribuição
+
+### **Etapa 1**
+
+#### Conhecendo os operadores de atribuição
+
+#### O que são?
+
+*São operadores utilizados para definir o valor inicial ou sobrescrever o valor de uma variável.*
+
+### Atribuição simples
+
+    saldo = 500
+    print(saldo)
+    >>> 500
+
+### Atribuição com adição
+
+    saldo = 500
+    saldo += 200
+
+    print(saldo)
+    >>> 700
+>>>
+### Atribuição com subtração
+    saldo = 500
+    saldo -= 100
+
+    print(saldo)
+    >>> 400
+
+### Atribuição com multiplicação
+    saldo = 500
+    saldo *= 2
+
+    print(saldo)
+    >>> 1000
+
+### Atribuição com divisão
+    saldo = 500
+    saldo /= 5
+
+    print(saldo)
+    >>> 100.0
+
+    saldo = 500
+    saldo //= 5
+
+    print(saldo)
+    >>> 100
+
+### Atribuição com módulo (resto da divisão)
+    saldo = 500
+    saldo %= 480
+
+    print(saldo)
+    >>> 20
+
+### Atribuição com exponenciação (80 elevado ao quadrado)
+    saldo = 80
+    saldo **= 2
+ 
+    print(saldo)
+    >>> 6400
+
+## Hands On!
+
+### Na prática
+
+![Atribuição adição, subtração, multiplicação e divisão](https://github.com/Alisson-Fonseca-Frash/imagens/blob/409e1c214458bd7b36b3b3f1ab6e58b7b2acf027/Operadores%20de%20Atribui%C3%A7%C3%A3o.png)
+
+![Atribuição exponenciação](https://github.com/Alisson-Fonseca-Frash/imagens/blob/a5047df599efaf37582e2e9de2302b004cedf608/Operadores%20de%20Atribui%C3%A7%C3%A3o%20-%20exponencial.png)
+# Operadores Lógicos
+
+## Objetivo Geral
+
+* O que são operadores lógicos e como utilizá-los.
+
+### Pré-requisitos
+
+* Python 3+
+* VSCode
+
+## Percurso
+
+| **Etapa 1**|
+|-|
+
+*Conhecendo os operadores lógicos.*
+
+### _São operadores utilizados em conjunto com os operadores de comparação, para montar uma expressão lógica. Quando um operador de comparação é utilizado, o resultado retornado é  um booleano (`bool`), dessa forma podemos cominar operadores de comparação com os operadores lógicos, exemplo:_
+    op_comparacao + op_logico + op_comparacao... N...
+
+### Exemplo
+
+    saldo = 1000
+    saque = 200
+    limite = 100
+
+    saldo >= saque
+    <span style="color:blue">True</span>
+
+    saque <= limite
+    >>> True
+
+
+## Operador E (`and`)
+
+    saldo = 1000
+    saque = 200
+    limite = 100
+
+    saldo >= saque and saque <= limite
+    >>> False
+
+| _Para que o operador venha ser True, necessita que todas as operadoções sejam verdadeiras. No exemplo acima, o limite (100) é maior que o saque (200), nesse caso, retornará como "False"._|
+|-|
+
+## Operador OU (`or`)
+
+    saldo = 1000
+    saque = 200
+    limite = 100
+    
+    saldo >= saque or saque <= limite
+    >>> True
+
+|Para que o operador venha ser `True`, necessita que apenas um operador seja *verdadeiro*. No exemplo acima, o saldo é maior que o saque. Já para ser falso, todos os operadores precisam ser `False`.|
+|-|
+
+## Operador de Negação
+
+    contatos_emergencia = []
+    not 1000 > 1500
+    >>> True
+
+    not contatos_emergencia
+    >>> True
+
+    not "saque 1500;"
+    >>> False
+
+    not "  "
+    >>> True
+
+|No exemplo acima as respostas resultam em verdadeiras (True). Porém, existe uma Negação (`not`), no exemplo:  not 1000 > 1500 >>> True|
+|-|
+
+## Parênteses
+
+|Parênteses serve para limitar a precendência|
+|-|
+
+    saldo = 1000
+    saque = 250
+    limite = 200
+    conta_especial = True
+
+    saldo >= saque and saque >= limite or conta_especial and saldo >= saque
+    >>> True
+
+    (saldo >= saque and saque <= limite) or (conta_especial and saldo >= saque)
+    >>> True 
+    (essa está mais simples de ser lida)
+
+## Hands On!
+
+### Na prática
+
+![Operadores lógicos básico](https://github.com/Alisson-Fonseca-Frash/imagens/blob/75c89ec2adb8d6bdaaa937f2db8ad4ac0a235d7d/Operadores%20logicos%20basico.png)
+
+![Operadores lógicos avançado](https://github.com/Alisson-Fonseca-Frash/imagens/blob/18873819f108440c757f1d52b4fdd17d0d7ea201/Operadores%20logicos%20avan%C3%A7ado.png)
+
+|Dica: não criem uma operação lógica muito grande, tente sempre fazer uma lógica pequena e compreensível de ser lida e resolvida.|
+|-|
+
+Por exemplo:
+
+![](https://github.com/Alisson-Fonseca-Frash/imagens/blob/852aa79a33177b9893188804a8cbc8af42299d9b/Operadores%20logicos%20avan%C3%A7ado%20-%20Completo.png)
